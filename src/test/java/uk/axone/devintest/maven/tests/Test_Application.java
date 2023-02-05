@@ -1,5 +1,6 @@
 package uk.axone.devintest.maven.tests;
 
+import dev.failsafe.internal.util.Assert;
 import org.junit.jupiter.api.Test;
 
 public class Test_Application {
@@ -21,6 +22,7 @@ public class Test_Application {
 
     @Test
     public void test4(){
+        int i = 100/0;
         System.out.println("running test 4");
     }
 
